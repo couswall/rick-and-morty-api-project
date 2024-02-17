@@ -1,0 +1,36 @@
+/*  -------- Filters container --------- */
+.filters.flex{
+    width: 100%;
+    padding: 0px 40px;
+    flex-direction: row;
+}
+
+.select{
+    font-family: var(--font-family);
+    font-size: 16px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #191f24;
+    padding: 10px 20px;
+    margin-right: 20px;
+    /* justify-self: start; */
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    
+    /*  -------- Filters container --------- */
+    
+        .select{
+            font-size: 14px;
+            padding: 10px 15px;
+            margin-right: 15px;
+            flex-wrap: wrap;
+        }
+    
+    
+     }
+    

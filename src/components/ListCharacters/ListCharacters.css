@@ -1,0 +1,46 @@
+
+/* ========= Characters collection ========== */
+.characters-collection .container.flex{
+    flex-direction: column;
+}
+
+.characters-collection .characters-wrapper.grid{
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 200px));
+    margin-bottom: 80px;
+}
+
+
+/* ========= Characters pagination buttons ========== */
+.characters-collection .pagination.flex{
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: end;
+}
+
+.characters-collection .pagination.flex button{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*  Breakpoints  */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .characters-collection .container.flex{
+        padding: 0px 15px;
+    }
+
+    .characters-collection .characters-wrapper.grid{
+        grid-template-columns: repeat(auto-fill, minmax(100px, 160px));
+        gap: 20px;
+    }
+ }
